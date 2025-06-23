@@ -1,0 +1,659 @@
+
+
+main {
+  background-color: #edd3c7;
+
+  padding: 8px;
+
+  font-style: italic;
+}
+
+body {
+  background-color: #edd3c7;
+
+  margin-top: 10px;
+
+  height: 200vh;
+
+
+}
+
+nav {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+
+  display: inline-flex;
+
+  position: relative;
+
+  padding-bottom: 0px;
+
+  background-color: #edd3c7;
+
+  border-top: 2px solid;
+
+  border-bottom: 2px solid;
+  
+}
+
+ul li {
+  display: inline-block;
+
+  padding: 7px;
+
+  margin-right: 20px;
+
+  background-color: #edd3c7;
+
+
+}
+
+ul li a {
+  color: black;
+
+  background-color: #edd3c7;
+
+  text-decoration: none;
+
+  padding-right: 7px;
+
+  position: relative;
+
+  left: 10px;
+
+}
+
+.watches {
+  font-size: 30px;
+
+  color: black;
+
+  position: absolute;
+
+  left: 0;
+
+  padding: 70px;
+
+  padding-left: 0;
+}
+
+.watch {
+  font-size: 35px;
+
+  color: black;
+
+  position: absolute;
+
+  top: 120px;
+
+  padding-top: 100px;
+
+  white-space: normal;
+
+  max-width: 750px;
+}
+
+.button {
+  display: inline-block;
+
+  color: white;
+
+  background-color: black;
+
+  padding: 10px 10px;
+
+  margin-top: 18px;
+
+  margin-right: 70px;
+
+  cursor: pointer;
+
+  border-radius: 2px;
+
+  width: auto;
+
+  height: 42px;
+
+  left: 30px;
+}
+
+.chanel {
+  right: 40px;
+
+  font-size: 30px;
+}
+
+#image1 {
+  padding-left: 803px;
+}
+
+#image2 {
+  position: relative;
+
+  right: 40px;
+
+  top: 150px;
+}
+
+.jewerly {
+  font-style: "Lato";
+
+  font-size: 30px;
+
+  color: black;
+
+  position: absolute;
+
+  left: 572px;
+
+  top: 750px;
+}
+
+.jewerly2 {
+  font-size: 35px;
+
+  color: black;
+
+  position: relative;
+
+  left: 572px;
+
+  bottom: 200px;
+
+  padding: 0;
+
+  white-space: normal;
+
+  max-width: 750px;
+}
+
+.Products {
+  color: black;
+
+  border-bottom: 3px solid;
+
+  padding: 2px;
+
+  font-family: "TT Commons Pro Expand", serif;
+}
+
+.background {
+  background-color: white;
+
+  position: relative;
+
+  overflow: hidden;
+
+  margin-left: -8px;
+
+  margin-right: -8px;
+
+  margin-bottom: -18px;
+
+  height: 1300px;
+}
+
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", serif;
+
+  font-size: 45px;
+
+  background-color: white;
+
+  margin-left: 4px;
+}
+
+#images3 {
+  display: flex;
+}
+
+.last {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+
+  height: 300px;
+
+  background: black;
+
+  margin-left: -8px;
+
+  margin-right: -8px;
+
+  margin-bottom: -20px;
+
+  margin-top: -25px;
+}
+
+#lastt {
+  padding: 20px;
+
+  color: white;
+
+  font-size: 30px;
+
+  text-align: center;
+}
+
+ol li {
+  color: white;
+
+  text-align: center;
+
+  list-style-type: none;
+}
+
+#locations {
+  color: white;
+
+  text-align: center;
+
+  font-size: 20px;
+}
+
+#places {
+  color: white;
+
+  text-align: center;
+}
+
+#number {
+  color: white;
+
+  text-align: center;
+}
+
+#watch1 {
+  margin-left: 10px;
+
+  bottom: 5px;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+
+  font-style: italic;
+}
+
+#watch11 {
+  margin-left: 10px;
+
+  top: 28px;
+
+  font-size: 15px;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+#watch2 {
+  margin-left: 350px;
+
+  bottom: 392px;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+
+  font-style: italic;
+}
+
+#watch22 {
+  margin-left: 350px;
+
+  bottom: 382px;
+
+  font-size: 15px;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+#watch3 {
+  margin-left: 700px;
+
+  bottom: 802px;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+
+  font-style: italic;
+}
+
+#watch33 {
+  margin-left: 700px;
+
+  bottom: 792px;
+
+  font-size: 15px;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+#watch4 {
+  margin-left: 1090px;
+
+  bottom: 1210px;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+
+  font-style: italic;
+}
+
+#watch44 {
+  margin-left: 1090px;
+
+  bottom: 1181px;
+
+  font-size: 15px;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+#button1 {
+  display: inline-block;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+
+  color: black;
+
+  background-color: white;
+
+  padding-top: 10px;
+
+  margin-top: 18px;
+
+  margin-right: 70px;
+
+  cursor: pointer;
+
+  border-radius: 2px;
+
+  width: auto;
+
+  height: 42px;
+
+  left: 9px;
+
+  bottom: -13px;
+}
+
+#button2 {
+  display: inline-block;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+
+  color: black;
+
+  background-color: white;
+
+  padding-top: 10px;
+
+  cursor: pointer;
+
+  border-radius: 2px;
+
+  width: auto;
+
+  height: 42px;
+
+  left: 350px;
+
+  bottom: 395px;
+}
+
+#button3 {
+  display: inline-block;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+
+  color: black;
+
+  background-color: white;
+
+  padding-top: 10px;
+
+  cursor: pointer;
+
+  border-radius: 2px;
+
+  width: auto;
+
+  height: 42px;
+
+  left: 700px;
+
+  bottom: 802px;
+}
+
+#button4 {
+  display: inline-block;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+
+  color: black;
+
+  background-color: white;
+
+  padding-top: 10px;
+
+  cursor: pointer;
+
+  border-radius: 2px;
+
+  width: auto;
+
+  height: 42px;
+
+  left: 1092px;
+
+  bottom: 1190px;
+}
+
+#jewerlyy {
+  font-size: 45px;
+
+  background-color: white;
+
+  margin-left: 4px;
+
+  bottom: 1080px;
+}
+
+#image7 {
+  bottom: 1040px;
+
+  padding-left: 35px;
+}
+
+#necklace {
+  bottom: 1065px;
+
+  padding-left: 10px;
+
+  font-size: 15px;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+
+  font-style: italic;
+}
+
+#necklace1 {
+  bottom: 1040px;
+
+  padding-left: 10px;
+
+  font-size: 15px;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+#button5 {
+  display: inline-block;
+
+  font-style: "Lato";
+
+  color: black;
+
+  background-color: white;
+
+  padding-top: 10px;
+
+  cursor: pointer;
+
+  border-radius: 2px;
+
+  width: auto;
+
+  height: 42px;
+
+  left: 9px;
+
+  bottom: 1040px;
+}
+
+#image8 {
+  bottom: 1400px;
+
+  padding-left: 390px;
+}
+
+#earrings {
+  bottom: 1407px;
+
+  padding-left: 400px;
+
+  font-size: 15px;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+
+  font-style: italic;
+}
+
+#earrings1 {
+  bottom: 1400px;
+
+  padding-left: 400px;
+
+  font-size: 15px;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+#button6 {
+  display: inline-block;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+
+  color: black;
+
+  background-color: white;
+
+  padding-top: 10px;
+
+  cursor: pointer;
+
+  border-radius: 2px;
+
+  width: auto;
+
+  height: 42px;
+
+  left: 400px;
+
+  bottom: 1398px;
+}
+
+#image9 {
+  bottom: 1800px;
+
+  padding-left: 730px;
+}
+
+#ring {
+  bottom: 1765px;
+
+  padding-left: 755px;
+
+  font-size: 15px;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+
+  font-style: italic;
+}
+
+#ring1 {
+  bottom: 1740px;
+
+  padding-left: 750px;
+
+  font-size: 15px;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+#button7 {
+  display: inline-block;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+
+  color: black;
+
+  background-color: white;
+
+  padding-top: 10px;
+
+  cursor: pointer;
+
+  border-radius: 2px;
+
+  width: auto;
+
+  height: 42px;
+
+  left: 750px;
+
+  bottom: 1753px;
+}
+
+#image10 {
+  bottom: 2150px;
+
+  padding-left: 1070px;
+}
+
+#ringg {
+  bottom: 2125px;
+
+  padding-left: 1060px;
+
+  font-size: 15px;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+
+  font-style: italic;
+}
+
+#ringg1 {
+  bottom: 2100px;
+
+  padding-left: 1060px;
+
+  font-size: 15px;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+#button8 {
+  display: inline-block;
+
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+
+  color: black;
+
+  background-color: white;
+
+  padding-top: 10px;
+
+  cursor: pointer;
+
+  border-radius: 2px;
+
+  width: auto;
+
+  height: 42px;
+
+  left: 1060px;
+
+  bottom: 2094px;
+}

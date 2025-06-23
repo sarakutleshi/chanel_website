@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-size: 1em;
+            flex-direction: column;
+            display: inline;
+            background-color: #f1ebe9;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            background-color: #fcfae7;
+            color: #333;
+            position: sticky;
+            top: 0;
+            padding: 0 2rem;
+            height: 60px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+            border-bottom: 1px solid #eee;
+            z-index: 1000;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-weight: 700;
+            font-size: 1.6rem;
+            color: #222;
+            letter-spacing: 1px;
+            flex-shrink: 0;
+        }
+
+        .container-fluid {
+            display: flex;
+            gap: 1.5rem;
+            margin-left: 2rem;
+            flex-grow: 1;
+            align-items: center;
+        }
+
+        .container-fluid a.navbar-brand {
+            text-decoration: none;
+            color: #555;
+            font-weight: 500;
+            padding: 0.5rem 0;
+            position: relative;
+            transition: color 0.25s ease;
+        }
+
+        .container-fluid a.navbar-brand::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #ff3366; /* subtle accent color */
+            transition: width 0.3s ease;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        .container-fluid a.navbar-brand:hover {
+            color: #ff3366;
+        }
+
+        .container-fluid a.navbar-brand:hover::after {
+            width: 100%;
+        }
+
+        .show-case img {
+            height: 800px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap-reverse;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            padding-bottom: 40px;
+            margin-bottom: 150px;
+        }
+
+        .home-cards {
+            display: flex;
+            justify-content: center;
+            margin: 30px;
+            padding: 50px;
+        }
+
+        .home-cards img {
+            height: 750px;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .home-cards div {
+            margin-left: 30px;
+            padding: 40px;
+
+        }
+
+        .home-cards h1 {
+            margin-bottom: 20px;
+        }
+
+        .show-case2 img {
+            height: auto;
+            width: 1000px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 80px;
+            margin-left: 250px;
+        }
+
+        .row-featurette h1 {
+            display: flex;
+            justify-content: center;
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+
+        .row-featurette p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 140px;
+            margin-bottom: 190px;
+            font-size: larger;
+        }
+
+
+        /* Footer */
+        .last {
+            font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+            height: 300px;
+            background: black;
+            margin: -25px -8px -20px;
+        }
+
+        #lastt {
+            padding: 20px;
+            color: white;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        ol li {
+            color: white;
+            text-align: center;
+            list-style-type: none;
+        }
+
+        #locations {
+            color: white;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        #places {
+            color: white;
+            text-align: center;
+        }
+
+        #number {
+            color: white;
+            text-align: center;
+        }
+
+
+        @media (max-width: 768px) {
+            /* Adjust the font size, margins, or padding */
+            body {
+                font-size: 14px;
+            }
+
+            /* Make the navigation menu items stack vertically */
+            .header a {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            /* Make the cards stack vertically */
+            .cards2 {
+                width: 100%; /* Make cards take full width */
+                margin-bottom: 20px;
+            }
+
+            /* Adjust the width of the images */
+            .home-cards2 img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<nav class="header" aria-label="Primary navigation">
+    <h1>CHANEL</h1>
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/Fashion/index.html">FASHION</a>
+        <a class="navbar-brand" href="/MakeUpAndSkinCare/makeupstyle.css">MAKEUP AND SKINCARE</a>
+        <a class="navbar-brand" href="/JewerlyAndWatches/index.html">JEWELRY AND WATCHES</a>
+        <a class="navbar-brand" href="/EyewearAndFragrance/index.html">EYEWEAR AND FRAGRANCE</a>
+        <a class="navbar-brand" href="/AboutUs/index.html">ABOUT CHANEL</a>
+    </div>
+</nav>
+<div class="show-case">
+    <img src="https://www.chanel.com/puls-img/c_limit,w_2400/q_auto:good,dpr_auto,f_auto/1745590057501-lapausamainvisueldesktopx2jpg_1660x2880.jpg"
+         alt="">
+</div>
+
+<hr>
+<div class="row-featurette">
+    <div>
+        <h1>THE HISTORY</h1>
+    </div>
+</div>
+<hr>
+
+<section class="home-cards">
+    <div class="left-side">
+        <img src="https://www.chanel.com/puls-img/c_limit,w_1770/q_auto:good,dpr_auto,f_auto/1745590057394-lapausa2ndvisueldesktopmobilex3jpg_1179x1770.jpg"
+             alt="">
+    </div>
+
+    <div>
+        <div class="right-side">
+            <h1>CHANEL.COM</h1>
+            <p>Our website, chanel.com, serves as a significant point <br>
+                of contact for our Brand to the wider world. <br>
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+                As we continue to grow our digital media presence, <br>
+                our Global Digital Services team works across <br>
+                Chanel’s digital sites to accelerate progress <br>
+                by embedding sustainability from the start. <br>
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+                Within this team, 15 experts are dedicated <br>
+                to the performance, accessibility and sustainability of <br>
+                our digital services, including providing the <br>
+                tools and guidance so teams can incorporate <br>
+                sustainability into digital decision-making. <br>
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+                As part of this, we have developed a pioneering approach <br>
+                to calculate the carbon footprint of our <br>
+                web pages, in collaboration with an external partner, <br>
+                using a set of best practice eco web design <br>
+                principles. <br>
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+                We have also worked closely with partners <br>
+                to reduce the weight of chanel.com webpages by 55%, making <br>
+                then 30% faster to load. This helped drive a 16% <br>
+                reduction in emissions, despite an almost 28% <br>
+                increase in traffic in 2022. <br>
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+                Implementing a high-contrast design for web pages, <br>
+                has also helped increase accessibility for those <br>
+                with visual or other impairments. Chanel.com <br>
+                scored a perfect 100/100 on the Worldwide Accessibility <br>
+                Index in 2022, and we are continually challenging ourselves to go further.
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+            </p>
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<div class="row-featurette">
+    <div>
+        <h1>THE FOUNDER</h1>
+    </div>
+</div>
+
+<hr>
+
+<div class="show-case2">
+    <img src="https://i.pinimg.com/736x/90/51/ae/9051ae72f6ef6e7abb47a0035d1e8af4.jpg" alt="">
+</div>
+
+<div class="row-featurette">
+    <div>
+        <h1>“MAY MY LEGEND PROSPER AND THRIVE. <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspI WISH IT A LONG AND
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+            HAPPY
+            LIFE!”</h1>
+    </div>
+    <div>
+        <p>
+            Gabrielle Chanel lived her life as she alone intended.<br>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+            The trials of a childhood as an orphan and the <br>
+            successes of an accomplished businesswoman gave<br>
+            birth to an extraordinary character; daring, free, and ahead of her time. <br>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+            Faithful friendships and passionate love affairs, <br>
+            as well as a thirst for culture,discovery and travel helped shaped her personality.<br>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+            A wardrobe freed from constraints and superfluity, <br>
+            tweaked with masculine accents, created a visionary allure <br>
+            that has become timeless and yet wildly modern. Pearls and diamonds casually<br>
+            paired with iconic perfumes have created a<br>
+            signature style... <br>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+            That of an avant-garde woman, a pioneer whose lifestyle and <br>
+            multiple facets forged the values of the Houseshe founded, and who <br>
+            remains an inspiration for all. <br>
+        </p>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="last">
+    <h1 id="lastt">CHANEL</h1>
+    <p id="locations">Visit our store at the following location:</p>
+    <address>
+        <div>
+            <ol>
+                <li>Chanel Florence, Italy</li>
+                <li>Chanel Vienna, Austria</li>
+                <li>Chanel Paris, France</li>
+                <li>Chanel Prague, Czechia</li>
+                <li>Chanel Tirana, Albania</li>
+            </ol>
+        </div>
+    </address>
+    <p id="number">
+        For inquiries, contact us at <a href="tel:+123456789">123-456-789</a>
+    </p>
+</footer>
+
+
+</body>
+
+</html>
