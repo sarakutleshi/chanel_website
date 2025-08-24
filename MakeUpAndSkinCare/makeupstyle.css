@@ -75,7 +75,7 @@
       display: flex;
       justify-content: center;
       margin-top: 100px;
-      margin-bottom: 100px;
+      margin-bottom: 20px;
     }
 
     .home-cards {
@@ -92,6 +92,7 @@
       margin-bottom: 20px;
       justify-content: center;
       padding: 10px;
+      border-radius: 100px 0px 100px 0px;
     }
 
     .home-cards h3 {
@@ -108,7 +109,8 @@
     }
     .last {
       font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-      height: 300px;
+      height: auto;
+      width: max(100px, 100%);
       background: black;
       margin: -25px -8px -20px;
     }
@@ -239,14 +241,14 @@
       display: flex;
       justify-content: center;
       padding: 30px;
-      margin: 20px 20px 250px;
-      gap: 40px;
+      margin: 20px 20px 150px;
+      gap: 30px;
     }
 
     .home-cards img {
-      height: 400px;
+      height: 300px;
       width: 300px;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       justify-content: center;
       padding: 10px;
     }
@@ -262,4 +264,40 @@
       color: black;
       font-size: 15px;
       text-decoration: underline;
+    }
+
+    .box {
+      text-align: start;
+      background-color: #f9e4e9;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    }
+
+    .buttons{
+      text-align: center;
+      border-radius: 10px;
+      padding: 10px;
+      background-color: #f69ce1;
+      color: #432b1b;
+      font-size: larger;
+      font-weight: 400;
+      text-decoration: none;
+      cursor: pointer;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h3{
+      font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: #311e11;
+    }
+
+    .buttons:hover {
+      background-color: rgb(138, 70, 122);
+      color: white;
     }
