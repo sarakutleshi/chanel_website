@@ -9,23 +9,28 @@ body {
   font-size: 1em;
   flex-direction: column;
   display: inline;
-  background-color: #edd3c7;
+  background-color: #f5e7e1;
 }
 
-/* NAVBAR */
+/*Navbar*/
+
 .header {
   display: flex;
   align-items: center;
-  background-color: #f6e6e1; /* cleaner white background */
-  color: #333;
+  background-color: #e0c2b6;
+  color: #f7f3f3;
   position: sticky;
   top: 0;
   padding: 0 2rem;
-  height: 60px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* subtle shadow for depth */
-  border-bottom: 1px solid #eee;
+  height: 80px;
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 150px;
   z-index: 1000;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, sans-serif;
+  border-radius: 40px;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .header h1 {
@@ -34,20 +39,19 @@ body {
   font-size: 1.6rem;
   color: #222;
   letter-spacing: 1px;
-  flex-shrink: 0;
 }
 
 .container-fluid {
   display: flex;
-  gap: 1.5rem;
-  margin-left: 2rem;
+  gap: 1rem;
+  margin-left: 3rem;
   flex-grow: 1;
   align-items: center;
 }
 
 .container-fluid a.navbar-brand {
   text-decoration: none;
-  color: #555;
+  color: rgba(23, 13, 13, 0.96);
   font-weight: 500;
   padding: 0.5rem 0;
   position: relative;
@@ -59,7 +63,7 @@ body {
   display: block;
   width: 0;
   height: 2px;
-  background: #ff3366; /* subtle accent color */
+  background: #ff3366;
   transition: width 0.3s ease;
   position: absolute;
   bottom: 0;
@@ -74,23 +78,8 @@ body {
   width: 100%;
 }
 
-.button {
-  margin-left: auto;
-  background-color: #ff3366;
-  color: white;
-  border: none;
-  padding: 0.5rem 1.5rem;
-  border-radius: 25px;
-  font-weight: 600;
-  font-size: 0.9rem;
-  cursor: pointer;
-  box-shadow: 0 4px 12px rgba(255, 51, 102, 0.4);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+/*End of NavBar*/
+
 
 .show-case {
   height: 700px;
