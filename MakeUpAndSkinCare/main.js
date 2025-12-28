@@ -1,9 +1,5 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const allButtons = document.querySelectorAll('[class^="add-to-cart"]');
-
-  allButtons.forEach(function (button) {
-    button.addEventListener("click", function () {
-      alert("Added to CART!");
-    });
-  });
-});
+function scrollCards(direction) {
+    const container = document.querySelector('.home-cards');
+    const cardWidth = container.querySelector('.card').offsetWidth + 25;
+    container.scrollLeft += direction * cardWidth;
+}

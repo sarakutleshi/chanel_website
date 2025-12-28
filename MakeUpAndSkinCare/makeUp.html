@@ -1,197 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-  <link href="makeupstyle.css" rel="stylesheet">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&display=swap" rel="stylesheet"> 
-  <style>
-
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <link rel="stylesheet" href="makeupstyle.css">
 </head>
 <body>
-
+  
 <nav class="header" aria-label="Primary navigation">
-  <h1>CHANEL</h1>
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/Fashion/index.html">FASHION</a>
-    <a class="navbar-brand" href="./makeUp.html">MAKEUP AND SKINCARE</a>
-    <a class="navbar-brand" href="/JewerlyAndWatches/index.html">JEWELRY AND WATCHES</a>
-    <a class="navbar-brand" href="/EyewearAndFragrance/index.html">EYEWEAR AND FRAGRANCE</a>
-    <a class="navbar-brand" href="/AboutUs/index.html">ABOUT CHANEL</a>
-  </div>
+
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/Fashion/index.html">FASHION</a>
+        <a class="navbar-brand" href="/MakeUpAndSkinCare/makeUp.html">MAKEUP AND SKINCARE</a>
+        <a class="navbar-brand" href="/JewerlyAndWatches/index.html">JEWELRY AND WATCHES</a>
+        <h1>CHANEL</h1>
+        <a class="navbar-brand" href="/EyewearAndFragrance/index.html">EYEWEAR AND FRAGRANCE</a>
+        <a class="navbar-brand" href="/AboutUs/index.html">ABOUT CHANEL</a>
+    </div>
 </nav>
 
 <div class="content-container">
-  <div class="show-case">
-    <h1>Make-Up</h1>
-    <h2>Express. Enhance. <br> Empower. <br> The power of Make-up</h2>
-    <h2>
-      Unleash your inner artist, from subtle enhancements to bold statements,<br>
-      discover the confidence that comes with every stroke of color.
-    </h2>
-    <a class="buttons">SHOP PRODUCTS</a>
-  </div>
+    <div class="show-case">
+        <h1>Make-Up</h1>
+        <h2>Express. Enhance. <br> Empower. <br> The power of Make-up</h2>
+        <h2>
+            Unleash your inner artist, from subtle enhancements to bold statements,<br>
+            discover the confidence that comes with every stroke of color.
+        </h2>
+        <a href="#" target="_blank" rel="noreferrer">SHOP PRODUCTS</a>
+    </div>
 
-  <div class="image">
-    <img
-            src="https://i.pinimg.com/736x/73/da/34/73da343b96cee6c62068d43ac93ee0fa.jpg"
-            alt="Makeup promotional image"
-            width="450"
-            height="400"/>
-  </div>
+    <div class="image">
+        <img
+                src="https://i.pinimg.com/736x/73/da/34/73da343b96cee6c62068d43ac93ee0fa.jpg"
+                alt="Makeup promotional image"
+                width="450"
+                height="400"/>
+    </div>
 </div>
 
+<section class="cards-wrapper">
+    <button class="arrow left" onclick="scrollCards(-1)">&#10094;</button>
 
-<div class="section-name">
-  <h2>MAKE-UP COLLECTION</h2>
-</div>
+    <div class="home-cards">
+        <div class="card" style="--bg:url('https://i.pinimg.com/736x/52/a3/0e/52a30eaf9c92ad24054a1440a252e4ee.jpg')">
+            <h3>Chanel Moisturizer</h3>
+            <a href="#">Visit product</a>
+        </div>
 
-<section class="home-cards" style="margin-bottom: 0;">
-  <div class="box">
-  <div>
-    <img src="https://i.pinimg.com/736x/8e/f2/15/8ef215602a98e8546360aa0b8431b343.jpg"
-         alt="Pink EyeWear" >
-    <h3>Chanel Beauty</h3>
-  <br>
-    <a href="#" class="buttons">View Collection</a>
-  </div></div>
-  <div class="box">
-  <div>
-    <img src="https://i.pinimg.com/1200x/b1/13/de/b113de72e894796ddd9124d2eafb6417.jpg" alt="Shield Sunglasses">
-    <h3>Fenty Beauty</h3>
-    <br>
-    <a href="#" class="buttons">View Collection</a>
-  </div></div>
-  <div class="box">
-  <div>
-    <img src="https://i.pinimg.com/736x/81/72/15/817215322a230de562e12145d707fa40.jpg" alt="Rectangle EyeWear">
-    <h3>Huda Beauty</h3>
-    <br>
-    <a href="#" class="buttons">View Collection</a>
-  </div></div>
-</section>
-<section class="home-cards" style="margin-top: 10px;">
-  <div class="box">
-  <div>
-    <img src="https://i.pinimg.com/736x/8e/f2/15/8ef215602a98e8546360aa0b8431b343.jpg"
-         alt="Pink EyeWear" >
-    <h3>Chanel Beauty</h3>
-  <br>
-    <a href="#" class="buttons">View Collection</a>
-  </div></div>
-  <div class="box">
-  <div>
-    <img src="https://i.pinimg.com/1200x/b1/13/de/b113de72e894796ddd9124d2eafb6417.jpg" alt="Shield Sunglasses">
-    <h3>Fenty Beauty</h3>
-    <br>
-    <a href="#" class="buttons">View Collection</a>
-  </div></div>
-  <div class="box">
-  <div>
-    <img src="https://i.pinimg.com/736x/81/72/15/817215322a230de562e12145d707fa40.jpg" alt="Rectangle EyeWear">
-    <h3>Huda Beauty</h3>
-    <br>
-    <a href="#" class="buttons">View Collection</a>
-  </div></div>
+        <div class="card" style="--bg:url('https://i.pinimg.com/736x/f8/7d/fb/f87dfbf1b11ea7e96aa30ffc9febde3d.jpg')">
+            <h3>Cheris Blush</h3>
+            <a href="#">Visit product</a>
+        </div>
+
+        <div class="card" style="--bg:url('https://i.pinimg.com/736x/10/7b/09/107b0990649bbf36bd3f134c8ccf89e5.jpg')">
+            <h3>Lip Tint</h3>
+            <a href="#">Visit product</a>
+        </div>
+
+        <div class="card" style="--bg:url('https://i.pinimg.com/736x/03/60/0f/03600fc2fc7a69fffba4695e4e76286a.jpg')">
+            <h3>Fenty Beauty</h3>
+            <a href="#">Visit product</a>
+        </div>
+
+        <div class="card" style="--bg:url('https://i.pinimg.com/736x/03/60/0f/03600fc2fc7a69fffba4695e4e76286a.jpg')">
+            <h3>Fenty Beauty</h3>
+            <a href="#">Visit product</a>
+        </div>
+
+        <div class="card" style="--bg:url('https://i.pinimg.com/736x/03/60/0f/03600fc2fc7a69fffba4695e4e76286a.jpg')">
+            <h3>Fenty Beauty</h3>
+            <a href="#">Visit product</a>
+        </div>
+    </div>
+
+    <button class="arrow right" onclick="scrollCards(1)">&#10095;</button>
 </section>
 
-<div class="content-container">
-  <div class="show-case">
-    <h1>SKIN CARE</h1>
-    <h2>Discover the <br> beauty within</h2>
-    <h2>Premium skincare by expert estheticians who get your skin.</h2>
-    <a class="buttons">SHOP PRODUCTS</a>
-  </div>
+<!--<div class="content-container">-->
+<!--    <div class="show-case">-->
+<!--        <h1>SKIN CARE</h1>-->
+<!--        <h2>Discover the  <br> beauty within</h2>-->
+<!--        <h2>Premium skincare by expert estheticians who get your skin.</h2>-->
+<!--        <a href="#" target="_blank" rel="noreferrer">SHOP PRODUCTS</a>-->
+<!--    </div>-->
 
-  <div class="image">
-    <img src="https://i.pinimg.com/736x/42/42/ca/4242ca4f942b96e9c1ed5ad7e853c77f.jpg"
-         alt="Skincare promotional image" width="450" />
+<!--    <div class="image">-->
+<!--        <img src="https://i.pinimg.com/736x/42/42/ca/4242ca4f942b96e9c1ed5ad7e853c77f.jpg"-->
+<!--             alt="Skincare promotional image" width="450" />-->
 
-  </div>
-</div>
+<!--    </div>-->
+<!--</div>-->
 
-
-<!-- START-->
-<div class="section-name">
-  <h2>SKIN-CARE SELECTION</h2>
-</div>
-
-<section class="home-cards" style="margin-bottom: 0;">
-  <div class="box">
-  <div>
-    <img src="https://i.pinimg.com/736x/a5/33/36/a5333666ae87dd4cce2705802baa5ee2.jpg" alt="Rectangle EyeWear">
-    <h3>Rhode Beauty</h3>
-    <br>
-    <a href="#" class="buttons">View Collection</a>
-  </div></div>
-  <div class="box">
-  <div>
-    <img src="https://i.pinimg.com/736x/45/3b/78/453b784dc4325f794ae6b75c6db983f1.jpg" alt="Square EyeWear">
-    <h3>The Ordinary</h3>
-    <br>
-    <a href="#" class="buttons">View Collection</a>
-  </div>
-  </div>
-  <div class="box">
-  <div>
-    <img src="https://i.pinimg.com/1200x/65/e5/ab/65e5ab6b200f3be96ba9a2e48e73b3a2.jpg" alt="Shield Sunglasses">
-    <h3>CERAVE</h3>
-    <br>
-    <a href="#" class="buttons">View Collection</a>
-  </div>
-  </div>
-</section>
-
-
-<section class="home-cards" style="margin-top: 10px;">
-  <div class="box">
-  <div>
-    <img src="https://i.pinimg.com/736x/a5/33/36/a5333666ae87dd4cce2705802baa5ee2.jpg" alt="Rectangle EyeWear">
-    <h3>Rhode Beauty</h3>
-    <br>
-    <a href="#" class="buttons">View Collection</a>
-  </div></div>
-  <div class="box">
-  <div>
-    <img src="https://i.pinimg.com/736x/45/3b/78/453b784dc4325f794ae6b75c6db983f1.jpg" alt="Square EyeWear">
-    <h3>The Ordinary</h3>
-    <br>
-    <a href="#" class="buttons">View Collection</a>
-  </div>
-  </div>
-  <div class="box">
-  <div>
-    <img src="https://i.pinimg.com/1200x/65/e5/ab/65e5ab6b200f3be96ba9a2e48e73b3a2.jpg" alt="Shield Sunglasses">
-    <h3>CERAVE</h3>
-    <br>
-    <a href="#" class="buttons">View Collection</a>
-  </div>
-  </div>
-</section>
 
 <footer class="last">
-  <h1 id="lastt">CHANEL</h1>
-  <p id="locations">Visit our store at the following location:</p>
-  <address>
-    <div>
-      <ol>
-        <li>Chanel Florence, Italy</li>
-        <li>Chanel Vienna, Austria</li>
-        <li>Chanel Paris, France</li>
-        <li>Chanel Prague, Czechia</li>
-        <li>Chanel Tirana, Albania</li>
-      </ol>
-    </div>
-  </address>
-  <p id="number">
-    For inquiries, contact us at <a href="tel:+123456789">123-456-789</a>
-  </p>
+    <h1 id="lastt">CHANEL</h1>
+    <p id="locations">Visit our store at the following location:</p>
+    <address>
+        <div>
+            <ol>
+                <li>Chanel Florence, Italy</li>
+                <li>Chanel Vienna, Austria</li>
+                <li>Chanel Paris, France</li>
+                <li>Chanel Prague, Czechia</li>
+                <li>Chanel Tirana, Albania</li>
+            </ol>
+        </div>
+    </address>
+    <p id="number">
+        For inquiries, contact us at <a href="tel:+123456789">123-456-789</a>
+    </p>
 </footer>
 
-<script src="./main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
