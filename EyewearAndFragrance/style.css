@@ -68,13 +68,16 @@ a {
 .container-fluid {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   width: 100%;
 }
 .nav-links {
   display: flex;
   gap: 2rem;
   align-items: center;
+  flex: 1;
+}
+.nav-links:last-child {
+  justify-content: flex-end;
 }
 .container-fluid a.navbar-brand {
   font-family: var(--sans);
